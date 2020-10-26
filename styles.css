@@ -52,6 +52,7 @@ body{
 a {
   color: #0077C5;
   text-decoration: none;
+  cursor: pointer;
 }
 /* Logos Section */
 .logos{
@@ -114,6 +115,8 @@ button {
 .create-acc {
   width: 100%;
   line-height: 3em;
+  border: transparent;
+  cursor: pointer;
 }
 
 .sign-in {
@@ -121,7 +124,10 @@ button {
   line-height: 1.8em;
   margin-left: 1em;
   align-self: center;
-
+  padding: 0.3em;
+  border-radius: 0.2em;
+  border: transparent;
+  cursor: pointer;
 }
 
 /* Top-right */
@@ -131,7 +137,8 @@ button {
   margin-top: 1em;
   font-size: small;
   margin: 1.5em;
-  
+  line-height: 1.3em;
+  font-weight: 100;
 }
 
 /*border-box */
