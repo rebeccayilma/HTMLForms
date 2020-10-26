@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&display=swap");
 
 html,
-body,
 div,
 span,
 applet,
@@ -85,9 +84,9 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -102,24 +101,26 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -136,6 +137,7 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
 /* Logos Section */
 .logos {
   padding: 1em;
@@ -146,13 +148,22 @@ ul > li {
   display: inline;
   margin-left: 0.4em;
 }
+
 /* Typography */
 h1 {
   font-weight: 400;
   padding: 0 1em 1em 1em;
   font-size: 1.5em;
 }
+
+/* border-box */
+
+* {
+  box-sizing: border-box;
+}
+
 /* Form Section */
+
 form {
   background-color: white;
   border: solid 1px #d1d2d3;
@@ -163,20 +174,25 @@ form {
   margin-bottom: 2em;
   border-radius: 0.2em;
 }
+
 form > * {
   display: block;
   font-weight: 300;
 }
+
 form > p {
   font-size: small;
 }
+
 form > a {
   font-size: small;
   margin-bottom: 3em;
 }
+
 label {
   text-align: start;
 }
+
 input {
   width: 100%;
   padding: 0.5em;
@@ -216,17 +232,10 @@ button {
 .top-right {
   display: flex;
   justify-content: flex-end;
-  margin-top: 1em;
   font-size: small;
   margin: 1.5em;
   line-height: 1.3em;
   font-weight: 100;
-}
-
-/*border-box */
-
-* {
-  box-sizing: border-box;
 }
 
 /* Footer */
@@ -254,7 +263,6 @@ footer {
 /* recaptcha */
 
 .captcha {
-  font-size: small;
   background-color: #eceef1;
   color: #8d9096;
   margin: 32px -32px -32px -32px;
