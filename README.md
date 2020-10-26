@@ -1,6 +1,9 @@
 # HTMLForms
 This project consists of an HTML page that matches the appearance of mint.com’s signup page
 
+
+![screenshot](./assets/img/project-screenshot.png)
+
 # Built With
 - HTML
 - CSS
