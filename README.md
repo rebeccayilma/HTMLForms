@@ -27,6 +27,10 @@ Navigate to the desired directory in your PC and run:
 Navigate to the local repo that you have cloned in the above step and open the index.html file
 The webpage will open in your browser
 
+### Live Demo
+
+https://rebeccayilma.github.io/HTMLForms/
+
 ## Authors
 
 👤 **Author1**
